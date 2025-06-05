@@ -1,0 +1,330 @@
+{
+  "Italian": {
+    "Lasagna": {
+      "ingredients": ["Pasta sheets", "Tomato sauce", "Ricotta cheese", "Mozzarella", "Parmesan", "Garlic", "Basil"],
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "meal_type": "Dinner"
+    },
+    "Pink Pasta": {
+      "ingredients": ["Penne pasta", "Tomato puree", "Cream", "Garlic", "Onion", "Olive oil", "Red chilli flakes"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "Lunch"
+    },
+    "Pesto Pasta": {
+      "ingredients": ["Pasta", "Fresh basil", "Pine nuts", "Garlic", "Olive oil", "Parmesan cheese"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "meal_type": "Lunch"
+    },
+    "Mac and Cheese": {
+      "ingredients": ["Elbow macaroni", "Butter", "Milk", "Cheddar cheese", "Flour", "Black pepper"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "Lunch"
+    },
+    "Pizza": {
+      "ingredients": ["Pizza dough", "Mozzarella", "Tomato sauce", "Capsicum", "Onion", "Oregano"],
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "notes": "Allow 1 hour for dough to rise",
+      "meal_type": "Dinner"
+    }
+  },
+  "Chinese": {
+    "Hakka Noodles": {
+      "ingredients": ["Noodles", "Capsicum", "Cabbage", "Soy sauce", "Garlic", "Spring onion"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "meal_type": "Dinner"
+    },
+    "Chinese Bhel": {
+      "ingredients": ["Fried noodles", "Cabbage", "Spring onion", "Schezwan sauce"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 5,
+      "meal_type": "Snack"
+    },
+    "Manchurian with Fried Rice": {
+      "ingredients": ["Cabbage", "Soy sauce", "Cornflour", "Rice", "Spring onion"],
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "meal_type": "Lunch"
+    },
+    "Paneer Chilly with Fried Rice": {
+      "ingredients": ["Paneer", "Capsicum", "Onion", "Soy sauce", "Rice", "Garlic"],
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "meal_type": "Dinner"
+    }
+  },
+  "Maharashtrian": {
+    "Poha": {
+      "ingredients": ["Flattened rice", "Mustard seeds", "Onion", "Green chillies", "Turmeric", "Lemon", "Peanuts"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "meal_type": "Breakfast"
+    },
+    "Misal Pav": {
+      "ingredients": ["Moth beans", "Onion", "Garlic", "Pav", "Farsan", "Chilli powder", "Goda masala"],
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "notes": "Sprouting requires 6-8 hours",
+      "meal_type": "Lunch"
+    },
+    "Upma": {
+      "ingredients": ["Semolina", "Mustard seeds", "Onion", "Curry leaves", "Ghee"],
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 10,
+      "meal_type": "Breakfast"
+    },
+    "Childa": {
+      "ingredients": ["Gram flour", "Rice flour", "Green chillies", "Coriander"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "meal_type": "Breakfast"
+    },
+    "Puran Poli": {
+      "ingredients": ["Chana dal", "Jaggery", "Wheat flour", "Cardamom"],
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 30,
+      "meal_type": "Lunch"
+    },
+    "Chavli ki Subji": {
+      "ingredients": ["Black-eyed peas", "Onion", "Tomato", "Mustard seeds"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "meal_type": "Lunch"
+    },
+    "Karela ki Subji": {
+      "ingredients": ["Bitter gourd", "Onion", "Turmeric", "Tamarind"],
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "meal_type": "Lunch"
+    },
+    "Beans ki Subji": {
+      "ingredients": ["French beans", "Mustard seeds", "Coconut", "Green chillies"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "Lunch"
+    },
+    "Cauliflower ki Subji": {
+      "ingredients": ["Cauliflower", "Onion", "Garlic", "Turmeric", "Garam masala"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "Dinner"
+    }
+  },
+  "South Indian": {
+    "Dosa": {
+      "ingredients": ["Rice", "Urad dal", "Oil"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "notes": "Soak + 8 hours fermentation",
+      "meal_type": "Breakfast"
+    },
+    "Uttapam": {
+      "ingredients": ["Dosa batter", "Onion", "Tomato", "Green chillies"],
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 10,
+      "notes": "Requires fermented batter",
+      "meal_type": "Breakfast"
+    },
+    "Idli": {
+      "ingredients": ["Rice", "Urad dal", "Oil"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "notes": "Requires fermented batter",
+      "meal_type": "Breakfast"
+    }
+  },
+  "Gujarati": {
+    "Dhokla": {
+      "ingredients": ["Gram flour", "Eno", "Turmeric", "Mustard seeds"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20,
+      "meal_type": "Breakfast"
+    },
+    "Thepla": {
+      "ingredients": ["Wheat flour", "Methi leaves", "Turmeric", "Yogurt"],
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "meal_type": "Breakfast"
+    }
+  },
+  "Fast Food": {
+    "Waffle": {
+      "ingredients": ["Flour", "Egg", "Milk", "Baking powder", "Sugar"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "meal_type": "Breakfast"
+    },
+    "Pancake": {
+      "ingredients": ["Flour", "Egg", "Milk", "Baking powder", "Butter"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "meal_type": "Breakfast"
+    },
+    "Bhel": {
+      "ingredients": ["Puffed rice", "Onion", "Tomato", "Green chutney", "Tamarind chutney", "Sev"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "meal_type": "Snack"
+    },
+    "Chana Chor": {
+      "ingredients": ["Chana chor garam", "Onion", "Tomato", "Lemon"],
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 0,
+      "meal_type": "Snack"
+    },
+    "Sandwich": {
+      "ingredients": ["Bread", "Butter", "Tomato", "Cucumber", "Green chutney"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "meal_type": "Breakfast"
+    },
+    "Avocado Toast": {
+      "ingredients": ["Bread", "Avocado", "Lemon", "Red chilli flakes"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "meal_type": "Breakfast"
+    },
+    "Quesadilla": {
+      "ingredients": ["Tortilla", "Cheese", "Capsicum", "Onion"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "meal_type": "Dinner"
+    },
+    "Pav Bhaji": {
+      "ingredients": ["Potatoes", "Peas", "Tomato", "Onion", "Pav", "Butter", "Pav bhaji masala"],
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "meal_type": "Dinner"
+    },
+    "Burrito Bowl": {
+      "ingredients": ["Rajma", "Rice", "Salsa", "Corn", "Lettuce", "Sour cream", "Avocado"],
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 30,
+      "notes": "Soak rajma for 3 hours",
+      "meal_type": "Lunch"
+    },
+    "Falafel and Pita": {
+      "ingredients": ["Chickpeas", "Parsley", "Onion", "Garlic", "Pita bread", "Hummus"],
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 30,
+      "notes": "Soak chickpeas for 6 hours",
+      "meal_type": "Dinner"
+    },
+    "Subway-style Sandwich": {
+      "ingredients": ["Sub sandwich bread", "Lettuce", "Tomato", "Jalapeno", "Mozzarella", "Sauces"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0,
+      "meal_type": "Dinner"
+    },
+    "Paneer Frankie": {
+      "ingredients": ["Paneer", "roti", "Onion", "Capsicum", "Spices"],
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 0,
+      "meal_type": "Lunch"
+    }
+  },
+  "North Indian":
+  {
+  "Paneer Butter Masala": {
+    "ingredients": ["Paneer", "Tomato", "Butter", "Cream", "Garam masala", "Onion", "Garlic", "Ginger"],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 25,
+    "meal_type": "Lunch"
+  },
+  "Paneer Bhurji": {
+    "ingredients": ["Paneer", "Onion", "Tomato", "Green chili", "Turmeric", "Coriander powder"],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 15,
+    "meal_type": "Lunch"
+  },
+  "Palak Paneer": {
+    "ingredients": ["Paneer", "Spinach", "Onion", "Garlic", "Tomato", "Cream", "Spices"],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 20,
+    "meal_type": "Lunch"
+  },
+  "Chole Bhature": {
+    "ingredients": ["Chickpeas", "Onion", "Tomato", "Garlic", "Ginger", "Flour", "Yogurt", "Spices"],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "meal_type": "Lunch"
+  },
+  "Rajma Chawal": {
+    "ingredients": ["Kidney beans", "Onion", "Tomato", "Ginger", "Garlic", "Rice", "Spices"],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 35,
+    "meal_type": "Lunch"
+  },
+  "Dal Makhani with Chawal": {
+    "ingredients": ["Black lentils", "Kidney beans", "Butter", "Cream", "Onion", "Tomato", "Rice"],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 40,
+    "meal_type": "Lunch"
+  },
+  "Dum Aloo": {
+    "ingredients": ["Potatoes", "Yogurt", "Onion", "Tomato", "Spices", "Ginger", "Garlic"],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 25,
+    "meal_type": "Lunch"
+  },
+  "Aloo Fried": {
+    "ingredients": ["Potatoes", "Mustard seeds", "Turmeric", "Curry leaves", "Oil", "Salt"],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 15,
+    "meal_type": "Lunch"
+  },
+  "Dal Makhani with Rice": {
+    "ingredients": ["Black lentils", "Kidney beans", "Butter", "Cream", "Onion", "Tomato", "Rice"],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 40,
+    "meal_type": "Dinner"
+  },
+  "Chole Kulche": {
+    "ingredients": ["Chickpeas", "Onion", "Tomato", "Spices", "Kulcha bread", "Coriander"],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 25,
+    "meal_type": "Dinner"
+  },
+  "Paneer Frankie": {
+    "ingredients": ["Paneer", "Capsicum", "Onion", "Roti", "Chutney", "Spices"],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 20,
+    "meal_type": "Dinner"
+  },
+  "Thepla": {
+    "ingredients": ["Wheat flour", "Methi leaves", "Curd", "Spices", "Turmeric", "Salt"],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 15,
+    "meal_type": "Dinner"
+  },
+  "Thalipeeth": {
+    "ingredients": ["Multi-grain flour", "Onion", "Green chili", "Spices", "Salt", "Oil"],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 15,
+    "meal_type": "Dinner"
+  },
+  "Handwa": {
+    "ingredients": ["Rice", "Lentils", "Bottle gourd", "Mustard seeds", "Sesame seeds", "Spices"],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "meal_type": "Dinner"
+  },
+  "Samosa Chaat": {
+    "ingredients": ["Samosa", "Chutneys", "Yogurt", "Onion", "Tomato", "Spices"],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 10,
+    "meal_type": "Dinner"
+  },
+  "Ragda Pattice": {
+    "ingredients": ["White peas", "Potatoes", "Onion", "Spices", "Tamarind chutney", "Coriander"],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "meal_type": "Dinner"
+  }
+}
+}

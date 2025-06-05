@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/select";
 import { Sun, Moon } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { useNavigate } from "react-router-dom";
 
 type MealType = "Breakfast" | "Lunch" | "Dinner";
 
@@ -95,6 +96,26 @@ const meals: Record<string, Record<MealType, { name: string; desc: string }[]>> 
       { name: "Avocado Toast", desc: "Bread topped with mashed avocado and seasonings." },
       { name: "Burrito Bowl", desc: "Rice, beans, veggies, and sauces in a bowl." },
       { name: "Quesadilla", desc: "Grilled tortilla filled with cheese and veggies." },
+      {
+      name: "Pav Bhaji",
+      desc: "A spicy blend of mashed vegetables served with buttered bread.",
+    },
+    {
+      name: "Burrito Bowl",
+      desc: "A wholesome bowl with rice, beans, veggies, and salsa.",
+    },
+    {
+      name: "Falafel and Pita Bread",
+      desc: "Crispy falafels served with pita, hummus, and veggies.",
+    },
+    {
+      name: "Subway",
+      desc: "A customizable veggie sandwich with sauces and fillings.",
+    },
+    {
+      name: "Paneer Frankie",
+      desc: "A spiced paneer wrap rolled in a soft roti.",
+    },
 ],
   },
   American: {
@@ -148,6 +169,7 @@ const meals: Record<string, Record<MealType, { name: string; desc: string }[]>> 
 };
 
 export default function MealRecommendations() {
+  const navigate = useNavigate();
   const [mealType, setMealType] = useState<MealType>("Breakfast");
   const [cuisine, setCuisine] = useState<string>(mealCuisines[mealType][0]);
   const [darkMode, setDarkMode] = useState(false);
@@ -173,6 +195,12 @@ export default function MealRecommendations() {
         <Button variant="outline" onClick={() => setDarkMode(!darkMode)}>
           {darkMode ? <Sun className="h-4 w-4 mr-2" /> : <Moon className="h-4 w-4 mr-2" />}
           {darkMode ? "Light Mode" : "Dark Mode"}
+        </Button>
+      </div>
+
+      <div className="p-4">
+        <Button onClick={() => navigate("/suggest")} className="mb-4">
+          Suggest Meals by Ingredients
         </Button>
       </div>
 
